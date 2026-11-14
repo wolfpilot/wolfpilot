@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="750" viewBox="0 0 1500 750">
+  <!-- wolfpilot.co splash animation. Loops every 5.85s (0.5s delay, 3.75s animation, 1s hold, 0.6s fade out). -->
+  <style>
+  .tf { transform-box: fill-box; transform-origin: center; }
+  .lg__contour-path { fill: none; stroke: #151515; stroke-dasharray: 1; }
+  #backdrop, #logo, #logo * { animation-duration: 5.85s; animation-iteration-count: infinite; animation-fill-mode: both; }
+  #backdrop { animation-name: k0; }
+  #logo { animation-name: k1; }
+  #triangle { animation-name: k2; }
+  #triangle .lg__contour-path-top { animation-name: k3; }
+  #triangle .lg__contour-path-bottom { animation-name: k4; }
+  #triangle .lg__shading-path { animation-name: k5; }
+  #details { animation-name: k6; }
+  #details .lg__shading-path-1 { animation-name: k7; }
+  #details .lg__shading-path-2 { animation-name: k8; }
+  #details .lg__shading-path-3 { animation-name: k9; }
+  #details .lg__shading-path-4 { animation-name: k10; }
+  #details .lg__shading-path-5 { animation-name: k11; }
+  #letter { animation-name: k12; }
+  #letter .lg__contour-path { animation-name: k13; }
+  #letter .lg__shading-path { animation-name: k14; }
+  @keyframes k0 {
+    0% { opacity: 0; transform: scale(1.15); }
+    8.547% { opacity: 0; transform: scale(1.15); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    40.5983% { opacity: 1; transform: scale(1); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    50.2137% { opacity: 0.75; transform: scale(1.25); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    63.0342% { opacity: 0.5; transform: scale(1.5); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    72.6496% { opacity: 0; transform: scale(20); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 0; transform: scale(20); }
+  }
+  @keyframes k1 {
+    0% { transform: scale(1.0417); opacity: 1; }
+    8.547% { transform: scale(1.0417); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    40.5983% { transform: scale(1.0417,1.0063); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    50.2137% { transform: scale(1.0375); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    63.0342% { transform: scale(1.0375); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    72.6496% { transform: scale(1.0417); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    89.7436% { opacity: 1; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { transform: scale(1.0417); opacity: 0; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+  }
+  @keyframes k2 {
+    0% { transform: scale(1.1111); }
+    62.3932% { transform: scale(1.1111); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    72.6496% { transform: scale(1); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { transform: scale(1); }
+  }
+  @keyframes k3 {
+    0% { opacity: 1; stroke-dashoffset: 1; }
+    13.6752% { opacity: 0; stroke-dashoffset: 1; animation-timing-function: linear; }
+    29.0598% { opacity: 1; stroke-dashoffset: 0; animation-timing-function: linear; }
+    54.7009% { opacity: 1; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    70.0855% { opacity: 0; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 0; stroke-dashoffset: 0; }
+  }
+  @keyframes k4 {
+    0% { opacity: 1; stroke-dashoffset: 1; }
+    18.8034% { opacity: 0; stroke-dashoffset: 1; animation-timing-function: linear; }
+    34.188% { opacity: 1; stroke-dashoffset: 0; animation-timing-function: linear; }
+    54.7009% { opacity: 1; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    70.0855% { opacity: 0; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 0; stroke-dashoffset: 0; }
+  }
+  @keyframes k5 {
+    0% { opacity: 0; filter: hue-rotate(-270deg); }
+    62.3932% { opacity: 0; filter: hue-rotate(-270deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    72.6496% { opacity: 1; filter: hue-rotate(0deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; filter: hue-rotate(0deg); }
+  }
+  @keyframes k6 {
+    0% { transform: scale(1.1111); }
+    53.8462% { transform: scale(1.1111); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    64.1026% { transform: scale(1); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { transform: scale(1); }
+  }
+  @keyframes k7 {
+    0% { opacity: 0; filter: hue-rotate(-270deg); }
+    47.0085% { opacity: 0; filter: hue-rotate(-270deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    57.265% { opacity: 1; filter: hue-rotate(0deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; filter: hue-rotate(0deg); }
+  }
+  @keyframes k8 {
+    0% { opacity: 0; filter: hue-rotate(-270deg); }
+    48.7179% { opacity: 0; filter: hue-rotate(-270deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    58.9744% { opacity: 1; filter: hue-rotate(0deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; filter: hue-rotate(0deg); }
+  }
+  @keyframes k9 {
+    0% { opacity: 0; filter: hue-rotate(-270deg); }
+    50.4274% { opacity: 0; filter: hue-rotate(-270deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    60.6838% { opacity: 1; filter: hue-rotate(0deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; filter: hue-rotate(0deg); }
+  }
+  @keyframes k10 {
+    0% { opacity: 0; filter: hue-rotate(-270deg); }
+    52.1368% { opacity: 0; filter: hue-rotate(-270deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    62.3932% { opacity: 1; filter: hue-rotate(0deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; filter: hue-rotate(0deg); }
+  }
+  @keyframes k11 {
+    0% { opacity: 0; filter: hue-rotate(-270deg); }
+    53.8462% { opacity: 0; filter: hue-rotate(-270deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    64.1026% { opacity: 1; filter: hue-rotate(0deg); animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; filter: hue-rotate(0deg); }
+  }
+  @keyframes k12 {
+    0% { transform: scale(1.1111); }
+    39.3162% { transform: scale(1.1111); animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55); }
+    49.5726% { transform: scale(1); animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55); }
+    100% { transform: scale(1); }
+  }
+  @keyframes k13 {
+    0% { opacity: 1; stroke-dashoffset: 1; }
+    23.9316% { opacity: 0; stroke-dashoffset: 1; animation-timing-function: linear; }
+    39.3162% { opacity: 1; stroke-dashoffset: 0; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    54.7009% { opacity: 0; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 0; stroke-dashoffset: 0; }
+  }
+  @keyframes k14 {
+    0% { opacity: 0; }
+    39.3162% { opacity: 0; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    49.5726% { opacity: 1; animation-timing-function: cubic-bezier(0.4,0,0.2,1); }
+    100% { opacity: 1; }
+  }
+  </style>
+  <defs><clipPath id="frame"><rect width="1500" height="750" rx="24"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+  <rect width="1500" height="750" rx="24" fill="#FCFBFB"/>
+  <circle id="backdrop" class="tf" cx="750.0" cy="375.0" r="184.25" fill="#E7EEED"/>
+  <g id="logo" class="tf">
+    <g id="triangle" class="tf">
+      <svg x="543.75" y="284.85" width="412.50" height="180.30" viewBox="0 0 604 264" fill="none">
+    <g class="lg__contour"
+      clip-path="url(#logoTriangle__contour-clip)"
+    >
+      <path class="lg__contour-path lg__contour-path-top"
+        d="M302 0.664108L496.626 170.801C490.294 165.603 483.841 160.357 477.313 155.11C443.558 127.981 407.793 100.844 376.46 80.487C360.794 70.3087 346.226 61.8188 333.564 55.8717C320.918 49.9318 310.116 46.5 302 46.5C293.884 46.5 283.082 49.9318 270.436 55.8717C257.774 61.8188 243.206 70.3087 227.54 80.487C196.207 100.844 160.442 127.981 126.687 155.11C120.159 160.357 113.705 165.604 107.373 170.801L302 0.664108Z"
+        stroke="#151515"
+        pathLength="1"
+      />
+      <path class="lg__contour-path lg__contour-path-bottom"
+        d="M602.412 263.22C602.133 263.172 601.821 263.119 601.476 263.06C599.768 262.768 597.255 262.34 594.031 261.795C587.583 260.705 578.292 259.149 566.92 257.281C544.176 253.546 513.107 248.565 479.81 243.584C413.235 233.626 337.694 223.658 302 223.658C266.306 223.658 190.765 233.626 124.19 243.584C90.8928 248.565 59.8244 253.546 37.0804 257.281C25.7083 259.149 16.4172 260.705 9.96898 261.795C6.74487 262.34 4.23149 262.768 2.52407 263.06C2.17881 263.119 1.86651 263.172 1.58795 263.22C1.97177 262.868 2.44178 262.438 2.99481 261.932C4.73301 260.343 7.29131 258.013 10.5712 255.047C17.131 249.114 26.577 240.639 38.1212 230.469C61.21 210.128 92.6897 183.008 126.256 155.889C159.824 128.768 195.47 101.656 226.894 81.3261C242.606 71.1609 257.252 62.6979 270.048 56.778C282.858 50.8516 293.76 47.5 302 47.5C310.24 47.5 321.142 50.8516 333.952 56.778C346.748 62.6979 361.394 71.1609 377.106 81.3261C408.53 101.656 444.176 128.768 477.744 155.889C511.31 183.008 542.79 210.128 565.879 230.469C577.423 240.639 586.869 249.114 593.429 255.047C596.709 258.013 599.267 260.343 601.005 261.932C601.558 262.438 602.028 262.868 602.412 263.22Z"
+        stroke="#151515"
+        pathLength="1"
+      />
+    </g>
+    <g class="lg__shading"
+      clip-path="url(#logoTriangle__shading-clip)"
+    >
+      <path class="lg__shading-path lg__shading-path-top"
+        d="M302 0L0 264C0 264 238 47 302 47C366 47 604 264 604 264L302 0Z"
+        fill="url(#logoTriangle__shading-gradient0)"
+      />
+      <path class="lg__shading-path lg__shading-path-bottom"
+        d="M302 47C235.178 47 0 264 0 264C0 264 230.703 224.158 302 224.158C373.297 224.158 604 264 604 264C604 264 368.822 47 302 47Z"
+        fill="url(#logoTriangle__shading-gradient1)"
+      />
+    </g>
+    <defs>
+      <radialGradient
+        id="logoTriangle__shading-gradient1"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(302 45.6153) scale(302.277 838.922)"
+      >
+        <stop stop-color="#FF864C" />
+        <stop offset="0.185924" stop-color="#FF864C" />
+        <stop offset="0.417188" stop-color="#F8693E" />
+        <stop offset="0.772926" stop-color="#EE5B41" />
+        <stop offset="1" stop-color="#BF0420" />
+      </radialGradient>
+      <linearGradient
+        id="logoTriangle__shading-gradient0"
+        x1="302"
+        y1="-1.47913"
+        x2="302"
+        y2="264.354"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#F0482F" />
+        <stop offset="0.328" stop-color="#FF864C" />
+        <stop offset="0.707" stop-color="#F0482F" />
+        <stop offset="1" stop-color="#BF0420" />
+      </linearGradient>
+      <clipPath id="logoTriangle__contour-clip">
+        <rect width="604" height="264" fill="white" />
+      </clipPath>
+      <clipPath id="logoTriangle__shading-clip">
+        <rect width="604" height="264" fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+    </g>
+    <g id="details" class="tf">
+      <svg x="543.75" y="284.85" width="412.50" height="180.30" viewBox="0 0 604 264" fill="none">
+    <path class="lg__shading-path lg__shading-path-1"
+      d="M302.361 188C229.413 188 0 264 0 264C0 264 237.518 205 302.361 205C367.204 205 604 264 604 264C604 264 375.309 188 302.361 188Z"
+      fill="url(#logoDetails-gradient0)"
+    />
+    <path class="lg__shading-path lg__shading-path-2"
+      d="M302.361 151C229.413 151 0 264 0 264C0 264 237.518 160 302.361 160C367.204 160 604 264 604 264C604 264 375.309 151 302.361 151Z"
+      fill="url(#logoDetails-gradient1)"
+    />
+    <path class="lg__shading-path lg__shading-path-3"
+      d="M302.361 115C229.413 115 0 264 0 264C0 264 237.518 127.5 302.361 127.5C367.204 127.5 604 264 604 264C604 264 375.309 115 302.361 115Z"
+      fill="url(#logoDetails-gradient2)"
+    />
+    <path class="lg__shading-path lg__shading-path-4"
+      d="M302.361 82C229.413 82 0 264 0 264C0 264 237.518 89 302.361 89C367.204 89 604 264 604 264C604 264 375.309 82 302.361 82Z"
+      fill="url(#logoDetails-gradient3)"
+    />
+    <path class="lg__shading-path lg__shading-path-5"
+      d="M302.361 58C229.412 58 0 264 0 264C0 264 237.518 62 302.361 62C367.204 62 604 264 604 264C604 264 375.31 58 302.361 58Z"
+      fill="url(#logoDetails-gradient4)"
+    />
+    <defs>
+      <radialGradient
+        id="logoDetails-gradient0"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(302 196.039) scale(302.277 261.071)"
+      >
+        <stop stop-color="#FC854D" />
+        <stop offset="0.185924" stop-color="#F38556" />
+        <stop offset="0.541667" stop-color="#F5803E" />
+        <stop offset="0.772926" stop-color="#E9412B" />
+        <stop offset="1" stop-color="#BF0420" />
+      </radialGradient>
+      <radialGradient
+        id="logoDetails-gradient1"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(302 162.953) scale(302.277 388.172)"
+      >
+        <stop stop-color="#FC854D" />
+        <stop offset="0.185924" stop-color="#F38556" />
+        <stop offset="0.541667" stop-color="#F5803E" />
+        <stop offset="0.772926" stop-color="#E9412B" />
+        <stop offset="1" stop-color="#BF0420" />
+      </radialGradient>
+      <radialGradient
+        id="logoDetails-gradient2"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(302 130.761) scale(302.277 511.837)"
+      >
+        <stop stop-color="#FC854D" />
+        <stop offset="0.185924" stop-color="#F38556" />
+        <stop offset="0.541667" stop-color="#F5803E" />
+        <stop offset="0.772926" stop-color="#E9412B" />
+        <stop offset="1" stop-color="#BF0420" />
+      </radialGradient>
+      <radialGradient
+        id="logoDetails-gradient3"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(302 101.251) scale(302.277 625.197)"
+      >
+        <stop stop-color="#FC854D" />
+        <stop offset="0.185924" stop-color="#F38556" />
+        <stop offset="0.541667" stop-color="#F5803E" />
+        <stop offset="0.772926" stop-color="#E9412B" />
+        <stop offset="1" stop-color="#BF0420" />
+      </radialGradient>
+      <radialGradient
+        id="logoDetails-gradient4"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(302 79.7898) scale(302.277 707.641)"
+      >
+        <stop stop-color="#FC854D" />
+        <stop offset="0.185924" stop-color="#F38556" />
+        <stop offset="0.541667" stop-color="#F5803E" />
+        <stop offset="0.772926" stop-color="#E9412B" />
+        <stop offset="1" stop-color="#BF0420" />
+      </radialGradient>
+    </defs>
+  </svg>
+    </g>
+    <g id="letter" class="tf">
+      <svg x="543.75" y="284.85" width="412.50" height="180.30" viewBox="0 0 604 264" fill="none">
+    <path class="lg__contour-path"
+      d="M449.552 125.75C449.552 125.75 418.733 169.342 401.413 169.342C384.092 169.342 325.778 75 302 75C278.222 75 219.909 169.342 202.587 169.342C185.266 169.342 154.448 125.75 154.448 125.75L104.861 166.833C104.861 166.833 179.938 263.5 199.197 263.5C218.456 263.5 287.816 165.625 302 165.625C316.184 165.625 385.544 263.5 404.803 263.5C424.062 263.5 499.139 166.833 499.139 166.833L449.552 125.75Z"
+      stroke="#151515"
+      pathLength="1"
+    />
+    <path class="lg__shading-path"
+      d="M449.552 125.75C449.552 125.75 418.733 169.342 401.413 169.342C384.092 169.342 325.778 75 302 75C278.222 75 219.909 169.342 202.587 169.342C185.266 169.342 154.448 125.75 154.448 125.75L104.861 166.833C104.861 166.833 179.938 263.5 199.197 263.5C218.456 263.5 287.816 165.625 302 165.625C316.184 165.625 385.544 263.5 404.803 263.5C424.062 263.5 499.139 166.833 499.139 166.833L449.552 125.75Z"
+      fill="white"
+    />
+  </svg>
+    </g>
+  </g>
+  </g>
+</svg>
